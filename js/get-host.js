@@ -5,9 +5,10 @@
  */
 const getHostName = (url) => {
   // 请实现……
-};
+  return url.match(/https?:\/\/([^/]+)\//i)[0]
+}
 
 // * ---------------- 实现的效果：
 {
-  console.log(getHostName(`https://help.github.com/cn/github`)); // => `help.github.com`
+  console.log(getHostName(`https://help.github.com/cn/github`)) // => `help.github.com`
 }

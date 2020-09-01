@@ -20,24 +20,24 @@
 | React          | 是 大多数认为是MVC的前端js框架,编写风格上更加倾向函数式编程,html模板推荐使用JSX编写|
 | Vue            | 是 MVVM的前端js框架,编写风格更加贴近原生html|
 | Flux           | 是 经常被用于React组合使用|
-| Mobx           | 是 ……                |
-| MVVM           | 是 ……                |
-| TDD            | 是 ……                |
-| Jest/Mocha     | 是 ……                |
-| node_modules   | 是 ……                |
-| package.json   | 是 ……                |
-| ECMAScript     | 是 ……                |
-| Electron       | 是 ……                |
-| Babel          | 是 ……                |
-| Webpack        | 是 ……                |
-| SSR            | 是 ……                |
+| Mobx           | 是 状态管理框架|
+| MVVM           | 是 Model-View-ViewModel 视图层和数据层仅和数据模型进行相互通讯|
+| TDD            | 是 测试驱动开发，先写单元测试，反推开发什么类型代码|
+| Jest/Mocha     | 是 单元测试框架|
+| node_modules   | 是 node_modules是安装node后用来存放用包管理工具下载安装的包的文件夹|
+| package.json   | 是 当前关于node.js项目的描述文件|
+| ECMAScript     | 是 由Ecma国际通过ECMA-262标准化的脚本程序设计语言|
+| Electron       | 是 跨平台桌面发开工具                |
+| Babel          | 是 是一个JS编译器，用于编写最新的语法解析成各种兼容版本|
+| Webpack        | 是 资源加载/打包的工具                |
+| SSR            | 是 服务器渲染 或者 小飞机科学上网利器|
 | BFF            | 是 ……                |
 | Serverless     | 是 ……                |
-| PWA            | 是 ……                |
-| V8             | 是 ……                |
+| PWA            | 是 移动端网页应用|
+| V8             | 是 一种js引擎|
 | libuv          | 是 ……                |
-| Stack Overflow | 是 ……                |
-| Deno           | 是 ……                |
+| Stack Overflow | 是 程序相关的IT技术问答网站             |
+| Deno           | 是 node创始人觉得node无法发现node无法实现现在的功能设计出来的               |
 
 ## Q2
 
@@ -50,3 +50,5 @@
 > - 掘金、知乎
 
 答：
+
+掘金 知乎 前端交流群 各种微信公众号

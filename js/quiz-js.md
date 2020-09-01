@@ -29,3 +29,4 @@ const getLoglevel = () => {
 ```
 
 答：
+    输出localStorage.loglevel，当为空（不为0或者false）的时候输出'INFO'

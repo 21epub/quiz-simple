@@ -3,7 +3,9 @@
 
 // * ---------------- 解决下文中缺少 clone 函数的问题……
 // 在这里写代码……
-
+function clone (data) {
+  return JSON.parse(JSON.stringify(data))
+}
 // * ---------------- 实现的效果：
 
 {
