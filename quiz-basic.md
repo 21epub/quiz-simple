@@ -12,32 +12,32 @@
 | 名词           | 是什么               |
 | :------------- | :------------------- |
 | Node.js        | 是 JS 的一个 runtime |
-| npm            | 是 ……                |
-| npx            | 是 ……                |
-| nvm            | 是 ……                |
-| nrm            | 是 ……                |
-| yarn           | 是 ……                |
-| React          | 是 ……                |
-| Vue            | 是 ……                |
-| Flux           | 是 ……                |
-| Mobx           | 是 ……                |
-| MVVM           | 是 ……                |
-| TDD            | 是 ……                |
-| Jest/Mocha     | 是 ……                |
-| node_modules   | 是 ……                |
-| package.json   | 是 ……                |
-| ECMAScript     | 是 ……                |
-| Electron       | 是 ……                |
-| Babel          | 是 ……                |
-| Webpack        | 是 ……                |
-| SSR            | 是 ……                |
-| BFF            | 是 ……                |
-| Serverless     | 是 ……                |
-| PWA            | 是 ……                |
-| V8             | 是 ……                |
-| libuv          | 是 ……                |
-| Stack Overflow | 是 ……                |
-| Deno           | 是 ……                |
+| npm            | 是 随Node.js一起安装的包管理工具               |
+| npx            | 是 一个npm包执行器，简化包的使用               |
+| nvm            | 是 Node.js的版本管理工具               |
+| nrm            | 是 用来给npm包源换源的工具                |
+| yarn           | 是 一个JS 包管理工具                |
+| React          | 是 三大前端主流框架之一，JS库，依赖Virtual DOM               |
+| Vue            | 是 三大前端主流框架之一，JS库，使用DOM模板               |
+| Flux           | 是 用于React的数据流架构               |
+| Mobx           | 是 一个数据管理库                |
+| MVVM           | 是 一种软件架构模式                |
+| TDD            | 是 一种以测试驱动的敏捷开发的设计方法论                |
+| Jest/Mocha     | 是 两种JS测试框架                |
+| node_modules   | 是 存放用包管理工具下载安装的包的文件夹               |
+| package.json   | 是 一个用于包的依赖管理的文件                |
+| ECMAScript     | 是 JavaScript的一个标准                |
+| Electron       | 是 可以使用前端技术进行桌面应用开发的框架                |
+| Babel          | 是 js编译器，能把最新js编译成可执行的版本                |
+| Webpack        | 是 一个前端打包工具                |
+| SSR            | 是 服务端渲染技术
+| BFF            | 是 一种为每种客户端定义了一个单独API网关的技术架构              |
+| Serverless     | 是 对全部底层资源和运维工作封装来进行开发的技术               |
+| PWA            | 是 对标原生app的一种基于网页的应用                |
+| V8             | 是 一种js引擎的实现              |
+| libuv          | 是 一个跨平台I/O抽象库               |
+| Stack Overflow | 是 编程问题问答网站               |
+| Deno           | 是 基于V8引擎构建的安全的TypeScript运行环境                |
 
 ## Q2
 
@@ -49,4 +49,4 @@
 > - Youtube 的几个频道: Fireship、Traversy Media、DesignCourse …
 > - 掘金、知乎
 
-答：
+答：掘金、segmentfault、V2EX、开源中国

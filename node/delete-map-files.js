@@ -5,8 +5,30 @@
  */
 const deleteMapFiles = (p) => {
   // 请实现……
+  const fs = require("fs")
+  function readDirSync(p){
+      let pa = fs.readdirSync(p);
+      pa.forEach(function(ele,index){
+          let info = fs.statSync(p+"/"+ ele)	
+          if(info.isDirectory()){
+              readDirSync(p+"/"+ ele);
+          }else{        
+              let reg = RegExp(/\.map$/);
+              if(ele.match(reg)){
+                  fs.unlink(p+"/"+ele, function(err){
+                      if(err){
+                       throw err;
+                      }
+                      console.log('文件:'+ ele +'删除成功！');
+                  })    
+              }
+          }	
+      })
+  }
+  readDirSync(p);
 };
 
+deleteMapFiles('./playground');
 // * ------------------------------------------------
 
 // * playground 文件夹目前的目录结构如下：

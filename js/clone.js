@@ -3,6 +3,17 @@
 
 // * ---------------- 解决下文中缺少 clone 函数的问题……
 // 在这里写代码……
+const clone = (obj) => {
+  const newObj = {};
+  for (let key in obj) {
+      if (typeof obj[key] !== 'object') {
+          newObj[key] = obj[key];
+      } else {
+          newObj[key] = clone(obj[key]);
+      }
+  }
+  return newObj;
+}
 
 // * ---------------- 实现的效果：
 
