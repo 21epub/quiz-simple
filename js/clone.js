@@ -3,7 +3,18 @@
 
 // * ---------------- 解决下文中缺少 clone 函数的问题……
 // 在这里写代码……
-
+function clone(data){
+  if(typeof(data)!=='object') return data
+  let mirrorData={}
+  for(let key in data){
+    if(typeof(data[key])==='object'){
+      mirrorData[key]=clone(data[key])
+    }else{
+      mirrorData[key]=data[key]
+    }
+  }
+  return mirrorData
+}
 // * ---------------- 实现的效果：
 
 {

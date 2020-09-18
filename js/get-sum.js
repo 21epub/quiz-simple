@@ -7,6 +7,15 @@
  */
 const getSumOfTriple = (arr, start, end) => {
   // 请实现……
+  if(start===undefined) start=Math.min(...arr);
+  if(end===undefined) end=Math.max(...arr);
+  let sum=0
+  for(let i in arr){
+    if(arr[i]>start&&arr[i]<end&&arr[i]%3===0){
+      sum+=arr[i]
+    }
+  }
+  return sum
 };
 
 // * ---------------- 实现的效果：

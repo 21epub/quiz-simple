@@ -10,6 +10,10 @@ Git 是一个广泛使用的版本管理工具，适合团队开发。
 请直接在这里作答。
 
 答：
+git clone
+git add
+git commit
+git push
 
 ## Q2
 

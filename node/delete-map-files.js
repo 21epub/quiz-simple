@@ -1,3 +1,5 @@
+const fs  = require("fs");
+const path = require("path")
 /**
  * @description 实现这个方法，能够删除指定文件夹下的所有 `.map` 文件。
  * @param {string} p
@@ -5,8 +7,22 @@
  */
 const deleteMapFiles = (p) => {
   // 请实现……
+  let files=[];
+  if(fs.existsSync(p)){
+    files=fs.readdirSync(p);
+    files.forEach(function(file,index){
+      let currentPath=path.join(p,file);
+      if(fs.statSync(currentPath).isDirectory()){
+        deleteMapFiles(currentPath);
+      }else{
+        if(/.map$/.test(file)){
+          fs.unlinkSync(currentPath);
+        }
+      }
+    })
+  }
 };
-
+deleteMapFiles('/Users/haopan/Desktop/quiz-simple/node/playground')
 // * ------------------------------------------------
 
 // * playground 文件夹目前的目录结构如下：

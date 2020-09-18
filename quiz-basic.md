@@ -12,31 +12,31 @@
 | 名词           | 是什么               |
 | :------------- | :------------------- |
 | Node.js        | 是 JS 的一个 runtime |
-| npm            | 是 ……                |
+| npm            | 是 ……  包管理              |
 | npx            | 是 ……                |
-| nvm            | 是 ……                |
-| nrm            | 是 ……                |
-| yarn           | 是 ……                |
-| React          | 是 ……                |
-| Vue            | 是 ……                |
+| nvm            | 是 ……  版本管理              |
+| nrm            | 是 ……  镜像管理              |
+| yarn           | 是 ……  包管理              |
+| React          | 是 ……  前端框架              |
+| Vue            | 是 ……  前端框架              |
 | Flux           | 是 ……                |
 | Mobx           | 是 ……                |
-| MVVM           | 是 ……                |
+| MVVM           | 是 ……  软件架构              |
 | TDD            | 是 ……                |
-| Jest/Mocha     | 是 ……                |
-| node_modules   | 是 ……                |
-| package.json   | 是 ……                |
-| ECMAScript     | 是 ……                |
+| Jest/Mocha     | 是 ……  测试              |
+| node_modules   | 是 ……  包模块文件              |
+| package.json   | 是 ……  项目包信息文件              |
+| ECMAScript     | 是 ……  js语言              |
 | Electron       | 是 ……                |
-| Babel          | 是 ……                |
-| Webpack        | 是 ……                |
+| Babel          | 是 ……  编辑器              |
+| Webpack        | 是 ……  打包工具              |
 | SSR            | 是 ……                |
 | BFF            | 是 ……                |
-| Serverless     | 是 ……                |
+| Serverless     | 是 ……  无服务器架构 云原生              |
 | PWA            | 是 ……                |
-| V8             | 是 ……                |
-| libuv          | 是 ……                |
-| Stack Overflow | 是 ……                |
+| V8             | 是 ……  chrome 引擎              |
+| libuv          | 是 ……  异步io库              |
+| Stack Overflow | 是 ……  技术问答网站              |
 | Deno           | 是 ……                |
 
 ## Q2
@@ -50,3 +50,5 @@
 > - 掘金、知乎
 
 答：
+> - JavaScript、CSDN等公众号
+> - 知乎、谷歌、百度搜索
