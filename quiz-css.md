@@ -11,6 +11,8 @@ Demo 代码可以新建一个或多个文件（不限），
 下面是 PostCSS 编译后生成的代码，如果你来写源码，你会怎么写。
 （实现方式不限，比如可以用 CSS in JS、Vue style 等方式）
 
+答：一般直接写 CSS 文件
+
 ```css
 .container {
   display: -webkit-box;
