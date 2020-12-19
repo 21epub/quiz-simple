@@ -7,7 +7,24 @@
  */
 const getSumOfTriple = (arr, start, end) => {
   // 请实现……
-};
+let sum = arr.map((value,key,arr) => {
+  let sum = 0
+  // 请实现……
+  arr.forEach((element) => {
+      if(!start && ! end){
+          if(element%3 === 0){
+              sum += element
+          }
+      }
+      if(element > start && element < end){
+          
+          if(element%3 === 0){
+              sum += element
+          }
+      }
+  })
+  return sum
+}
 
 // * ---------------- 实现的效果：
 

@@ -5,8 +5,14 @@
  */
 const getHostName = (url) => {
   // 请实现……
+  url = url.match(/https?:\/\/([^/]+)\//i);
+  console.log(url)
+  let domain = '';
+  if (url && url[1]) {
+      domain = url[1];
+  }
+  return domain;
 };
-
 // * ---------------- 实现的效果：
 {
   console.log(getHostName(`https://help.github.com/cn/github`)); // => `help.github.com`
