@@ -3,24 +3,24 @@
 
 // * ---------------- 解决下文中缺少 clone 函数的问题……
 // 在这里写代码……
-
+const clone = (obj) => JSON.parse(JSON.stringify(obj))
 // * ---------------- 实现的效果：
 
 {
-  const data = {
-    person: [
-      {
-        id: 114514,
-        age: 24,
-        type: 'student',
-      },
-    ],
-  };
+    const data = {
+        person: [
+            {
+                id: 114514,
+                age: 24,
+                type: 'student',
+            },
+        ],
+    };
 
-  const mirrorData = clone(data);
+    const mirrorData = clone(data);
 
-  mirrorData.person[0].age = 19;
+    mirrorData.person[0].age = 19;
 
-  console.log(mirrorData.person[0].age === 19);
-  console.log(data.person[0].age === 24);
+    console.log(mirrorData.person[0].age === 19);
+    console.log(data.person[0].age === 24);
 }

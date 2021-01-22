@@ -2,11 +2,20 @@
 // * 给下这段的代码加上 TypeScript 类型声明，以便更好地使用数据。
 
 // * ---------------- 请补充……
+interface response {
+  isOk: boolean
+  status: number
+  statusText: string
+  isRedirected: boolean
+  url:string
+}
 
 const getData = async () =>
-  await fetch('https://jsonplaceholder.typicode.com/todos/').then((response) => response.json());
+    await fetch('https://jsonplaceholder.typicode.com/todos/')
+        .then((response):Promise<response> => response.json());
 
 getData().then((e) => console.log(e));
+
 
 // * ---------------- TS 的示例
 

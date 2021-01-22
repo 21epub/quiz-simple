@@ -45,3 +45,28 @@ Demo 代码可以新建一个或多个文件（不限），
 > ```
 
 答：
+CSS 的方法论:
+1.命名的模块化:</br>
+确保全局空间下一级域名不冲突，那么子域名就被限定在了独立的局部作用域中，从而保证命名的唯一性。
+比如:
+```css
+.fui-form {
+  &-table {
+  }
+
+  &-label {
+  }
+}
+
+
+```
+2.稍微了解过BEM,
+看下面这个关于BEM命名常规的例子:
+```html
+<form class="form form--theme form--simple">
+  <input class="form__input" type="text" />
+  <input
+    class="form__submit form__submit--disabled"
+    type="submit" />
+</form>
+```
